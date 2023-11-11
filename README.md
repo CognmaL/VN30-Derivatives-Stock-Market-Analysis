@@ -15,13 +15,13 @@ Real-world data is often incomplete, inconsistent, and inaccurate. The data prep
 Clean the data to address issues such as missing values and outliers.
 #### (2) Transforming:
 Utilize foundational stock market knowledge and features in the dataset to create a new, more meaningful dataset for analysis.
-### 3. Data Scaling
+#### 3. Data Scaling
 Data scaling is a crucial step in machine learning, involving the transformation of feature values to a specific range (e.g., 0 to 1 or -1 to 1). This ensures that no single feature dominates distance calculations in algorithms, improving algorithm performance. Scaling methods include standardization and normalization.
 
-#### PCA (Principal Component Analysis)
+### PCA (Principal Component Analysis)
 Principal Component Analysis is applied to reduce dataset dimensionality while retaining essential features, simplifying the analysis process and enhancing computational efficiency. The cumulative sum of explained variance helps determine the percentage of variance retained by the selected components.
 
-#### K-Means Clustering
+### K-Means Clustering
 K-Means clustering is employed to group stocks with similar characteristics, revealing patterns and relationships within the dataset. This aids in understanding market dynamics.
 
 ### Data Analysis
